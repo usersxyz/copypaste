@@ -1,0 +1,23 @@
+/* style.css */
+body {
+    text-align: center; /* Horizontally center all content */
+   background-color: #333;
+}
+
+.button-container {
+    padding-top: 10%;
+    display: flex; /* Use flexbox for row arrangement */
+    flex-wrap: wrap; /* Wrap buttons to next line if needed */
+    justify-content: center; /* Center buttons horizontally */
+    margin: 0 auto;
+}
+
+.copy-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
